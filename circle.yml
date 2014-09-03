@@ -1,10 +1,6 @@
 machine:
   ruby:
     version: 2.1.2
-dependencies:
-  post:
-    - bundle exec rake generate
-
 deployment:
   production:
     branch: master 
