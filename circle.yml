@@ -3,7 +3,7 @@ machine:
     version: 2.1.2
 deployment:
   production:
-    branch: master 
+    branch: autodeploy
     commands:
       - ./deploy/prod.rb
 test:
