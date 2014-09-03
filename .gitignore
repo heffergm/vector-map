@@ -10,3 +10,6 @@ node_modules
 
 # storing some screenshots here
 screenshots
+
+# tests
+tmp/

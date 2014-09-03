@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../DeployGemfile', __FILE__)
-load Gem.bin_path('bundler', 'bundle')
+#ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../DeployGemfile', __FILE__)
+#load Gem.bin_path('bundler', 'bundle')
 
 ENV['AWS_ACCESS_KEY_ID']     = ENV['PROD_AWS_ACCESS_KEY_ID']
 ENV['AWS_SECRET_ACCESS_KEY'] = ENV['PROD_AWS_SECRET_ACCESS_KEY']

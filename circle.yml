@@ -6,3 +6,6 @@ deployment:
     branch: master 
     commands:
       - ./deploy/prod.rb
+test:
+  override:
+    - bundle exec rake
